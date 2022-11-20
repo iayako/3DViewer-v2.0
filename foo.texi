@@ -1,0 +1,38 @@
+\input texinfo
+@settitle 3D Viewer v2.0
+
+@copying
+Copyright @copyright{} school 21
+@end copying
+
+@titlepage
+@title 3d viewer 2.0
+@page
+@vskip 0pt plus 2filll
+@insertcopying
+@end titlepage
+
+@chapter About the program
+The program is implemented on the graphics libraries QT and Opengl. With it, the user can:
+@itemize
+@item Browse objects by downloading files with the .obj extension.
+@item Move, rotate, scale the object loaded by the user.
+@item Choose the type of lines, vertices.
+@item Choose the color of the background, lines, vertices.
+@item Choose the size of vertices and lines.
+@item Select a projection type.
+@item Save the resulting result in .jpeg, .bmp, .gif formats.
+@end itemize
+@chapter How to start
+To start using the program, it must be installed using the make install command.
+@chapter How to use
+@itemize
+@item To download an object, click "Open file" and specify the path to it.
+@item To move or rotate an object, enter a value in the line or move the slider.
+@item To zoom increase, move the slider or change the value manually.
+@item To use the settings (color, size, etc.) select the desired ones. This program saves the settings after it is closed. To reset your settings, click the "default settings" button.
+@item To save the result in image format, click on the "Save image" button and the program will prompt you to specify the file name and path to save.
+@item To save the resulting result in animation format, click on the "Screencast" button, a 5-second recording will begin. At the end of the time, the program will prompt you to select a file name and path to save.
+@end itemize
+@chapter Delete
+You can remove the user program using the make uninstall command.
